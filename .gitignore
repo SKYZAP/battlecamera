@@ -1,26 +1,35 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
+# Gradle
+.gradle/
+build/
+out/
 
-# idea
-out
+# IDE
+.idea/
+*.iml
 *.ipr
 *.iws
-*.iml
-.idea
+.vscode/
+*.code-workspace
 
-# gradle
-build
-.gradle
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
 
-# other
-eclipse
-run
-runs
-run-data
+# NeoForge/Minecraft
+run/
+runs/
+logs/
 
-repo
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Libs
+libs/*.jar
+
+# Secrets
+*.env
+secrets.properties
