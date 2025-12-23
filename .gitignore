@@ -27,9 +27,6 @@ logs/
 Thumbs.db
 desktop.ini
 
-# Libs
-libs/*.jar
-
 # Secrets
 *.env
 secrets.properties
