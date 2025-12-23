@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/skyzap/battlecamera/issues"
+
+[[mods]]
+modId = "battlecamera"
+version = "1.0.0"
+displayName = "Battle Camera Mod"
+displayURL = "https://github.com/skyzap/battlecamera"
+authors = "Skyzap"
+description = '''
+A mod that customizes the camera angle during Pixelmon battles.
+Listens to battle start events and sets custom camera positions.
+'''
+
+[[dependencies.battlecamera]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.battlecamera]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.battlecamera]]
+modId = "pixelmon"
+type = "optional"
+versionRange = "[9.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
