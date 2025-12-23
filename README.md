@@ -43,5 +43,3 @@ The `ClientCameraHandler` includes presets:
 - `BEHIND_PLAYER` - Behind the trainer
 - `DEFAULT` - Standard Pixelmon camera
 
-See `changelog.md` for detailed documentation.
-
