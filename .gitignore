@@ -28,7 +28,6 @@ Thumbs.db
 desktop.ini
 
 # Libs
-libs/
 libs/*.jar
 
 # Secrets
